@@ -23,6 +23,11 @@ div.video-wrapper {
 div.modal-content.is-medium {
   max-width: ${width}px !important;
 }
+
+div.sentence--video-player > div > div {
+  height: ${height}px !important;
+  width: ${width}px !important;
+}
 `
     document.querySelector('head').appendChild(style)
 })();
